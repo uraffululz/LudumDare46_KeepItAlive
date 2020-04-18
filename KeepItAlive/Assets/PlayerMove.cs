@@ -18,6 +18,11 @@ public class PlayerMove : MonoBehaviour{
     void Update()
     {
         Move();
+
+		if (Input.GetKey(KeyCode.E)) {
+			GetComponent<WarmthController>().playerWarmthBar. fillAmount -= (0.2f * Time.deltaTime);
+			GetComponent<WarmthController>().catWarmthBar.fillAmount += (0.2f * Time.deltaTime);
+		}
     }
 
 

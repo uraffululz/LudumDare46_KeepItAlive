@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{D21A7A22-0B50-0E8C-FA3E-9AE1920C1642}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,25 +62,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BarrelScript.cs" />
     <Compile Include="Assets\CameraScript.cs" />
+    <Compile Include="Assets\GoalScript.cs" />
     <Compile Include="Assets\PlayerMove.cs" />
+    <Compile Include="Assets\SceneManager.cs" />
+    <Compile Include="Assets\WarmthController.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,13 +270,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/TolkienQuest-NotN/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
