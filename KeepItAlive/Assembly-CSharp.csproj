@@ -62,12 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BarrelScript.cs" />
-    <Compile Include="Assets\CameraScript.cs" />
-    <Compile Include="Assets\GoalScript.cs" />
-    <Compile Include="Assets\PlayerMove.cs" />
-    <Compile Include="Assets\SceneManager.cs" />
-    <Compile Include="Assets\WarmthController.cs" />
+    <Compile Include="Assets\Scripts\BarrelScript.cs" />
+    <Compile Include="Assets\Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GoalScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\WarmthController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Master/Documents/Git Repositories/Unity Projects/LudumDare46_KeepItAlive/KeepItAlive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
