@@ -20,12 +20,6 @@ public class WarmthController : MonoBehaviour {
     void Update() {
         DecreasePlayerWarmthOverTime();
 		DecreaseCatWarmthOverTime();
-
-		//if (playerFroze) {
-		//}
-
-		//if (catFroze) {
-		//}
     }
 
 
@@ -46,7 +40,7 @@ public class WarmthController : MonoBehaviour {
 
 	void DecreaseCatWarmthOverTime () {
 		if (catWarmthBar.fillAmount > 0) {
-			catWarmthBar.fillAmount -= (0.1f * Time.deltaTime);
+			catWarmthBar.fillAmount -= (0.075f * Time.deltaTime);
 		}
 		else {
 			if (!catFroze) {

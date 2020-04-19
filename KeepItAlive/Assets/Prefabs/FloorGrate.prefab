@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7118207131329872066}
   - component: {fileID: 7118207131329872067}
   - component: {fileID: 1544610120}
-  - component: {fileID: 8296172668010538783}
   m_Layer: 0
   m_Name: FloorGrate
   m_TagString: Untagged
@@ -4814,16 +4813,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2.0000005, z: 0.14120953}
   m_Center: {x: 0, y: 0, z: 0.070604764}
---- !u!114 &8296172668010538783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1290596553827194981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7b57a4a001fd904e88f9b44ed4ceedc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
